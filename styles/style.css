@@ -4,8 +4,8 @@
 /* global styles start*/
 *{
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,8 +13,8 @@ body{
 }
 
 header{
-    max-width: 84%;
     margin: auto;
+    max-width: 84%;
 }
 
 .border{
@@ -24,22 +24,21 @@ header{
 .orange{
     color: orange;
 }
-
 /* global styles end*/
 
 
 /* nav start */
 nav{
-    margin-top: 87px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 87px;
+    display: flex;
+    margin-top: 87px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 label, .bar-icon{
-    font-size: 28px;
     display: none;
+    font-size: 28px;
 }
 
 #nav-toggler{
@@ -48,7 +47,7 @@ label, .bar-icon{
 
 nav > .logo > h2{
     font-size: 28px;
-    font-weight:700 ;
+    font-weight: 700;
     color: #3A3A3A;
 }
 
@@ -496,7 +495,7 @@ footer > .social-media-icon > a > i{
         text-align: center;
         transform: translateX(-1100px);
         flex-direction: column;
-        transition: transform .8s ease-out;
+        transition: transform .7s ease-out;
     }
 
     #nav-toggler:checked ~ .navigations-manu > .navigation{
