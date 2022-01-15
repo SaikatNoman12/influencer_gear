@@ -130,12 +130,12 @@ nav > .navigations-manu > .cart > a > .menu-icon{
 
 .left-content > .button > a{
     padding: 14px 40px;
-    background-color: #E02C6D;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     border-radius: 40px;
+    background-color: #E02C6D;
 } 
 
 .left-content > .button > a > i{
@@ -147,12 +147,12 @@ nav > .navigations-manu > .cart > a > .menu-icon{
 }
 
 .right-image img{
-    position: relative;
     top: 20px;
-    background-size:94%;
+    position: relative;
+    background-size: 94%;
     background-repeat: no-repeat;
     background-image: url(./images/Circle\ design.svg);
-    animation: up-down 2s ease-in-out infinite alternate ;
+    animation: up-down 2s ease-in-out infinite alternate;
     width: 500px;
 }
 
@@ -416,7 +416,6 @@ footer > .social-media-icon > a > i{
 
 }
 
-
 @media (max-width:1056px){
     
     .section{
@@ -531,15 +530,11 @@ footer > .social-media-icon > a > i{
     }
     
     .left-side img{
-        /* margin:30px auto 0px ;
-        margin-left: 10px;
-        margin-right: 10px; */
         width: 14%;
     }
 
     .right-side img{
         max-width: 14%;
-        /* margin:30px auto 0px; */
     }
 
     .cards{
@@ -549,6 +544,7 @@ footer > .social-media-icon > a > i{
     .seemore-button{
         text-align: center;
     }
+
 }
 
 @media (max-width:479px) {
@@ -559,19 +555,23 @@ footer > .social-media-icon > a > i{
         text-align: center;
         font-size: 20px;
     }
+
 }
 
 @media (max-width:358px) {
+
     .card{
         width: 90%;
     }
+
 }
 
 @media (max-width:290px) {
+
     .left-content > .button > a{
         padding: 14px 30px;
-
     }   
+
 }
 
 /* mobile responsive end*/
